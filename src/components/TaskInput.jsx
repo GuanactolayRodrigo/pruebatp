@@ -12,9 +12,9 @@ const manejarEnvio = (e) => {
 };
 
     return (
-        <div>
+        <div className="formulario-tarea">
             <input type="text" value={tarea} onChange={(e) => setTarea(e.target.value)} placeholder="Nueva Tarea" />
-            <button onClick={manejarEnvio}>Agregar</button>
+            <button className="agregar" onClick={manejarEnvio}>Agregar</button>
         </div>
     );
 };
