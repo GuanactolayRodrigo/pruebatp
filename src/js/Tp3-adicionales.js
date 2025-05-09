@@ -45,6 +45,36 @@ let productos = [
   console.log("Array final de productos:");
   console.log(productos);
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+let cositasuwu = [
+    { descripcion: "Mouse", precio: 15000 },
+    { descripcion: "Teclado", precio: 30000 },
+    { descripcion: "Auriculares", precio: 49000 },
+    { descripcion: "Monitor", precio: 120000 },
+    { descripcion: "Webcam", precio: 22000 },
+    { descripcion: "Parlante Bluetooth", precio: 59000.90 }
+   
+  ];
+
+
+
+
+
+
+
+
 //Agregado de otro producto y prueba de sobrescritura
 productos.push({ descripcion: "Regulador de tension", precio: 30000.00 });
   console.log("\n5 - Producto agregado:");
@@ -54,22 +84,3 @@ productos.push({ descripcion: "Regulador de tension", precio: 30000.00 });
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
