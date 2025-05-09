@@ -47,7 +47,10 @@ let productos = [
 
 
 
-
+//Agregado de otro producto y prueba de sobrescritura
+productos.push({ descripcion: "Cascos", precio: 15000.00 });
+  console.log("\n5 - Producto agregado:");
+  console.log(productos);
 
 
 
@@ -64,8 +67,7 @@ let cositasuwu = [
     { descripcion: "Auriculares", precio: 49000 },
     { descripcion: "Monitor", precio: 120000 },
     { descripcion: "Webcam", precio: 22000 },
-    { descripcion: "Parlante Bluetooth", precio: 59000.90 }
-   
+    { descripcion: "Parlante Bluetooth", precio: 59000.90 } 
   ];
 
 
