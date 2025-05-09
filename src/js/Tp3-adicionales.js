@@ -60,8 +60,15 @@ productos.push({ descripcion: "Gabinete", precio: 45000.00 });
 
 
 
-
-
+let uwu = [
+    { descripcion: "Mouse", precio: 15000 },
+    { descripcion: "Teclado", precio: 30000 },
+    { descripcion: "Auriculares", precio: 49000 },
+    { descripcion: "Monitor", precio: 120000 },
+    { descripcion: "Webcam", precio: 22000 },
+    { descripcion: "Parlante Bluetooth", precio: 59000.90 }
+  
+]
 
 
 
