@@ -44,7 +44,7 @@ let productos = [
   console.log(`Eliminado: ${productoEliminado.descripcion} - $${productoEliminado.precio}`);
   console.log("Array final de productos:");
   console.log(productos);
-  
+
 
 
 
@@ -70,6 +70,15 @@ let cositasuwu = [
 
 
 
+
+
+
+
+
+//Agregado de otro producto y prueba de sobrescritura
+productos.push({ descripcion: "Regulador de tension", precio: 30000.00 });
+  console.log("\n5 - Producto agregado:");
+  console.log(productos);
 
 
 
