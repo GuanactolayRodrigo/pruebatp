@@ -56,8 +56,10 @@ productos.push({ descripcion: "Cascos", precio: 15000.00 });
 
 
 
-
-
+let uwu = [
+    { descripcion: "Mouse", precio: 15000 },
+    { descripcion: "Teclado", precio: 30000 },
+]
 
 
 
