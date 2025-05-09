@@ -48,10 +48,14 @@ let productos = [
 
 
 //Agregado de otro producto y prueba de sobrescritura
-productos.push({ descripcion: "Cascos", precio: 15000.00 });
+productos.push({ descripcion: "cascos", precio: 30000.00 });
   console.log("\n5 - Producto agregado:");
   console.log(productos);
 
+//Agregado de otro producto y prueba de sobrescritura
+productos.push({ descripcion: "Gabinete", precio: 45000.00 });
+  console.log("\n5 - Producto agregado:");
+  console.log(productos);
 
 
 
